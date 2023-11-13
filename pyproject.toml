@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+    "numpy ~= 1.23",
+    "setuptools >= 61.0.0", 
+    "scikit-build >= 0.17.6",
+    "cmake >= 3.25",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flynet-kalman"
+version = "0.1.0"
+authors = [{name = "Johan Melis", email="Johan.melis@gmail.com"}] 
+description = "kalman filter extension module for flynet"
+license = "MIT"
+requires-python = ">= 3.10,<3.13"
+
+dependencies = [
+    "numpy ~= 1.23",
+]
+
+
