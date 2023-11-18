@@ -2,7 +2,17 @@
 
 Kalman filter extension module for flynet software from Miles and Dickinson 2023. 
 
-## Installation
+Tested on ubuntu 22.04. 
 
-TO DO
+## Build Dependencies 
+
+```bash
+sudo apt install libarmadillo-dev libboost-python-dev libboost-numpy-dev
+```
+
+## Installation
+cd into source directory and run
+```bash
+pip install .
+```
 
